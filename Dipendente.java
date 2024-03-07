@@ -1,4 +1,5 @@
-public abstract class Dipendente {
+
+public abstract class Dipendente implements CheckIn {
     protected String matricola;
     protected double stipendio;
     protected TipoDipartimento tipoDipartimento;
@@ -36,6 +37,5 @@ public abstract class Dipendente {
     }
 
     public abstract void calculateSalary();
-
 
 }

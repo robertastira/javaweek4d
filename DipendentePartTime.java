@@ -12,4 +12,8 @@ public class DipendentePartTime extends Dipendente {
 
     }
 
+    @Override
+    public void checkIn() {
+        System.out.println("Inizio turno - Check In effettuato");
+    }
 }

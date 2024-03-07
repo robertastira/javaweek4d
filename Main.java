@@ -23,6 +23,14 @@ public class Main {
      for (Dipendente dipendente : alldipendenti){
          dipendente.calculateSalary();
      }
+
+     Volontario Giuseppe = new Volontario("Giuseppe Rossi", 27, "Operatore sociale, psicologo, analista");
+     Giuseppe.checkIn();
+     System.out.println("Il volontario è: " + Giuseppe.nome + " di anni " + Giuseppe.eta);
+
+
+     Paolo.checkIn();
+     System.out.println("Il dipendente numero matricola: " + Paolo.matricola + " del reparto " + Paolo.tipoDipartimento);
         }
     }
 
