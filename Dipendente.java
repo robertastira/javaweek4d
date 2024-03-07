@@ -1,4 +1,4 @@
-public class Dipendente {
+public abstract class Dipendente {
     protected String matricola;
     protected double stipendio;
     protected TipoDipartimento tipoDipartimento;
@@ -34,4 +34,8 @@ public class Dipendente {
                 ", tipoDipartimento=" + tipoDipartimento +
                 '}';
     }
+
+    public abstract void calculateSalary();
+
+
 }
